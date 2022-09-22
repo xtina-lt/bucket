@@ -26,6 +26,12 @@ const Home = ({setHeader}) => {
 
     return (
         <> 
+            <div>
+                <h2>
+                    Add Bucket Item
+                </h2>
+                <Form list={list} setList={setList}/>
+            </div>
             {
                 list.map( (obj,i)=>
                     (obj.complete) ?
@@ -42,12 +48,6 @@ const Home = ({setHeader}) => {
                     </div>
                 )
             }
-            <div>
-                <h2>
-                    Add Bucket Item
-                </h2>
-                <Form list={list} setList={setList}/>
-            </div>
         </>
     )
 }

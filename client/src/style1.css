@@ -121,7 +121,7 @@ html{
                 height: max-content;
             }
             main > div{
-                max-height: 68vh;
+                max-height: 65vh;
                 /* scroll */
                 overflow-y: scroll;
                 scrollbar-width: none;

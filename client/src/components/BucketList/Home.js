@@ -42,38 +42,6 @@ const Home = ({setHeader}) => {
                     </div>
                 )
             }
-                        {
-                list.map( (obj,i)=>
-                    (obj.complete) ?
-                    <div key={i} className="done">
-                        <button onClick={e=>seeItem(e, obj)}> 
-                            {obj.name} 
-                        </button> 
-                    </div>
-                    :
-                    <div key={i}>
-                        <button onClick={e=>seeItem(e, obj)}> 
-                            {obj.name} 
-                        </button> 
-                    </div>
-                )
-            }
-                        {
-                list.map( (obj,i)=>
-                    (obj.complete) ?
-                    <div key={i} className="done">
-                        <button onClick={e=>seeItem(e, obj)}> 
-                            {obj.name} 
-                        </button> 
-                    </div>
-                    :
-                    <div key={i}>
-                        <button onClick={e=>seeItem(e, obj)}> 
-                            {obj.name} 
-                        </button> 
-                    </div>
-                )
-            }
             <div>
                 <h2>
                     Add Bucket Item
